@@ -11,21 +11,19 @@ const Todo = ({ text, isCompleted, deleted, completed }) => {
             <div className="widget-content p-0">
                 <div className="widget-content-wrapper">
                     <div className="widget-content-right flex1">
-                        <div className="widget-heading">
-                            {isCompleted ? <del className="animat">{text}</del> : text}
-                        </div>
+                            {isCompleted ?  <div className="widget-heading bg-green"> <del className="animat ">{text}</del> </div> : text}
                     </div>
                     <div className="widget-content-left">
                         {" "}
                         <button
-                            className="border-0 btn-transition btn btn-outline-success"
+                            className="border-0 btn-transition btn"
                             onClick={completed}
                         >
                             {" "}
                             <i className="fa fa-check"></i>
                         </button>{" "}
                         <button
-                            className="border-0 btn-transition btn btn-outline-danger"
+                            className="border-0 btn-transition btn"
                             onClick={deleted}
                         >
                             {" "}

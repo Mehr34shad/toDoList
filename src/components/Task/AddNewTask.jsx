@@ -5,7 +5,7 @@ const AddNewTask = () => {
   const context = useContext(TodoContext);
 
   return (
-    <div className="w-50 mx-auto fixed-bottom mb-5 p-3 wrapper">
+    <div className="container mx-auto">
       <form
         className="form-inline justify-content-center"
         onSubmit={(e) => e.preventDefault()}
@@ -14,14 +14,14 @@ const AddNewTask = () => {
           <input
             type="text"
             className="form-control rounded"
-            placeholder="اضافه کردن کار جدید"
+            placeholder="میخوای چکار کنی..!"
             value={context.todo}
             onChange={context.handleTodoInput}
           />
           <div className="input-group-prepend">
             <button
               type="submit"
-              className="btn btn-sm bg-transparent fa fa-plus-square text-light"
+              className="btn btn-sm  fa fa-plus"
               onClick={context.handleCreateNewTodo}
             />
           </div>

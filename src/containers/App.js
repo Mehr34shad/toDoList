@@ -2,10 +2,6 @@ import React, { Fragment } from "react";
 
 import Todos from "../components/Task/Todos";
 import AddNewTask from "../components/Task/AddNewTask";
-// import About from "../components/common/About";
-// import { Route } from "react-router";
-// import { Switch } from "react-router";
-// import Nav from "../components/common/Nav";
 
 const App = () => {
   return (

@@ -21,8 +21,8 @@ const Todos = () => {
         ))
       ) 
       : (
-        <div className="alert alert-light mt-3 w-75 mx-auto">
-          <p className="text-center">هیچ کاری برای امروز ثبت نشده دوست من</p>
+        <div className="alert alert-light">
+          <p className="text-center">کاری نداری یعنی...!</p>
         </div>
       )
       
