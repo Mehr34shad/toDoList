@@ -10,14 +10,9 @@ import AddNewTask from "../components/Task/AddNewTask";
 const App = () => {
   return (
     <Fragment>
-      {/* <Nav /> */}
       <div className="d-flex justify-content-center container">
         <div className="col-md-8">
           <div className="card-hover-shadow-2x mb-3 card">
-            {/* <Switch>
-              <Route path="/" exact component={Todos} />
-              <Route path="/about" component={About} />
-            </Switch> */}
             <Todos/>
           </div>
         </div>
