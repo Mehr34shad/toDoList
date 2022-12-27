@@ -36,9 +36,9 @@ function TodoForm(props) {
             ref={inputRef}
             className='todo-input edit'
           />
-          <button onClick={handleSubmit} className='todo-button edit'>
+          {/* <button onClick={handleSubmit} className='todo-button edit'>
             ویرایش
-          </button>
+          </button> */}
         </>
       ) : (
         <div id='inp'>
