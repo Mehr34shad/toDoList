@@ -42,7 +42,7 @@ function TodoList() {
 
   return (
     <>
-      <h1>لیست کار ها</h1>
+      <h2 className='pb-4' >لیست کار ها</h2>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}

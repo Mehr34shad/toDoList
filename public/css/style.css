@@ -31,12 +31,12 @@ body {
   flex-direction: column;
   justify-content: start;
   width: 1200px;
-  min-height: 600px;
+  min-height: 100vh;
   background: #fef0ec;
   text-align: center;
   margin: 128px auto;
-  border-radius: 10px;
-  padding-bottom: 32px;
+  border-radius: 1rem;
+  padding-bottom: 4rem;
 }
 
 .complete {
@@ -74,11 +74,11 @@ body {
 }
 
 .todo-input.edit {
+  margin: 2rem 0;
   background-color: #ff6a55;
 }
 
 .todo-button.edit {
-  /* background-color: #ff6a55; */
   padding: 16px 22px;
 }
 
@@ -92,18 +92,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4px auto;
-  /* color: #fff; */
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
-  ); */
   background-color: #fff;
   cursor: pointer;
-  padding: 16px;
-  border-radius: 5px;
-  width: 90%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  margin: 2rem 0;
 }
 
 /* .todo-row:nth-child(4n + 1) {
